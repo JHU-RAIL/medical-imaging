@@ -1,20 +1,17 @@
-# medical-imaging
+# Medical Image Processing and Documentation
 
 Below is an overview of medical imaging software and publication information learned over the last decades.
-
-## Python
-* [Python Packages](python-packages/README.md)
 
 
 ## File Formats
 * [File formats](file-formats/README.md) used in medical imaging.
 
+
 ## GUI Visualization
 * [GUI](gui-packages/README.md) used for visualizing medical images.
 
-
-## Image Processing
-
+## Python Packages
+* [Python Packages](python-packages/README.md)
 
 
 ## How to Write a Paper

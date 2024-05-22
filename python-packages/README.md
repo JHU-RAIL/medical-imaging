@@ -2,12 +2,19 @@
 
 ## Reading and Writing Medical Imaging Files
 
-* NIFTI
-* DICOM
-* MHA
+See [file-formats](file-formats/README.md).
 
 ## Image Processing
 
-* 
+### Numpy
+
+### Scipy
+
+### SciKit-Learn
+
+### SciKit-Image
+
+### TorchIO
+  
 
 ## Deep Learning
