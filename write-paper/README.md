@@ -14,9 +14,14 @@ The primary objective of this template is to help you organize your thoughts on 
 
 
 
+
+
 ## Potential Journals
 *List out some potential journals for submission*
 
+*
+*
+*
 
 
 ## Results to Fulfill Objectives
@@ -24,9 +29,16 @@ The primary objective of this template is to help you organize your thoughts on 
 
 1. 
 
+
+
 2. 
 
+
+
 3. 
+
+
+
 
 ## Discussion - Anomolies
 *List each discussion item.  For each result, was there an anomoly about the result that needed to be described further?  Outliner in the data?  Simple re-analysis with different starting conditions (e.g. curve fitting)?*
@@ -35,20 +47,30 @@ The primary objective of this template is to help you organize your thoughts on 
 
 2. 
 
+
+
 ## Discussion - Pertaining to Previous Work
 *List each discussion item.  For each result, how does it pertain to previous work?  Are your results better?  If not, why?*
 
 1. 
 
+
 2. 
+
+
 
 ## Discussion - Future Work
 *List each extension to this work.  How can the work be extended?*
 
 
 
+
+
 ## Describe the Methods
 *List each method that needs to be described.  A method could be apparatus setup.  Data analysis (and statistical tests).  Participants (entry criterion, exclusion criterion).  You will likely have several points here, again, each point will likely end up being a paragraph.*
+
+
+
 
 
 ## List the areas to Introduce
