@@ -3,29 +3,17 @@
 
 ## DICOM
 
-### General Info
-* DICOM stores 1 image per file
-* 3D and 4D datasets are stored in a directory and can have 100s of files
-* Filenames are stored with a UID
-* Four levels of hierarchy
-  * Patient
-    Information about the person
-  * Study
-    Information about “today’s scan”
-  * Series
-    A series is a single scan method (e.g., diffusion MRI scan)
-  * Instance
-    The slice information
+File suffix: .dcm or .dicom
 
-https://pydicom.github.io/pydicom/stable/
+Python Package: https://github.com/pydicom/pydicom
 
-### Python Install
+DICOM images are the most common images used by scanner and PACS system vendors.  Typically a DICOM images is a single 2D image and has a very large header containing patient, scanner and imaging information.  A multi-slice or volume scan is typically represented as a set of 2D images in a single directory.  To convert a DICOM directory into a NIFTI file one can use [https://github.com/rordenlab/dcm2niix/releases](https://github.com/rordenlab/dcm2niix/releases). 
 
+  
 ```bash
 $ pip install pydicom
 ```
 
-### Usage in Python
 
 ```python
 import pydicom
@@ -35,28 +23,48 @@ image = pydicom.load('filename.dcm')
 ```
 
 ## NIFTI
-* Started out as “Analyze” file format
-    .hdr and .img files separate
+File suffix: .nii or .nii.gz
 
-* Header and data in one file (“.nii” or “.nii.gz”)
-  * 348 byte header
+Python Package: https://nipy.org/nibabel/
 
-  * 4+ dimensions of data can be stored (including pixel “size”)
+This is one of the most common file formats to use for medical image processing.  It has a small header (348 bytes) and followed by the data. It will encode 2D, 3D or 4D data into the one file which makes it easy to copy the data.  The header contains only imaging information (pixel size, image shape, geometry information) and does not have the ability to hold patient information (other than a short description field which is typically empty).  This helps with de-identification.
 
-* Complete set of data types (8 bit to 128 bit)
+This is a typical common (or preferred) format for most medical image processing. 
 
-* Affine coordinate definitions relating voxel index to real world spatial index
+If it ends in ".gz" it is a compressed NIFTI file. All programs will read either uncompressed (.nii) or compressed (.nii.gz) NIFTI files. There is no need to uncompress the file first.
 
-`$ pip install nibabel`
+
+```bash
+$ pip install nibabel
+```
+
+```python
+import nibabel as nib
+
+n = nib.load('filename.nii.gz')
+
+print(n) # header
+
+data = n.get_fdata()
+```
+
 
 ## MHA
 
-Associated with ITK
+File suffix: .mha
 
-Stores information when processed (e.g., registration or segmentation)
-through ITK
+Python Package: https://pypi.org/project/MedPy/
+
+MHA Files come primarily from ITK software and contain both meta-data and the binary image data. They are able to contain both 2D and 3D data. They are less common for standard medical imaging but are the typical output from ITK software.
 
 `$ pip install medpy`
+
+## NRRD
+File suffix: .nrrd
+
+Python Package: [https://pypi.org/project/pynrrd/](https://pypi.org/project/pynrrd/)
+
+Nrrd is a simple file format designed to support scientific visualization and image processing involving N-dimensional raster data. Nrrd stands for "nearly raw raster data". The header is text with one field per line and the images are binary data.
 
 ## JPG / PNG / TIFF
 
@@ -65,11 +73,15 @@ through ITK
 
 `$ pip install imageio`
 
+
 ## BRIK
 
 “.brik” file format used primarily with AFNI software
 
 ## MINC
-* Medical Image NetCDF out of McGill
-* “.mnc”
-* https://www.mcgill.ca/bic/software/minc
+
+File suffix: .mnc
+
+Python Package: https://nipy.org/nibabel/
+
+The MINC file format came out of McGill and is a simple file format based on NetCDF.
