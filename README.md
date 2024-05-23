@@ -22,4 +22,4 @@ Below is an overview of medical imaging software and publication information lea
 [Learn how to](write-paper/README.md) organize information in order to write a paper.
 
 
-<center><img src="brain.png" height=250 style="display: block; margin-left: auto; margin-right: auto;"></center>
+<div style="text-align: center;"><img src="brain.png" height=250></div>
