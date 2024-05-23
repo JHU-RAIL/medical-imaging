@@ -15,6 +15,9 @@ Viewing medical images quick and simply is typically better with a [GUI](gui-pac
 
 Thankfully there are numerous [Python packages](python-packages/README.md) built for doing medical image processing, everything from image processing (2D and 3D) to visualization.
 
+## Code Snippets
+
+There are many [snippets of code](code-snippets/README.md) that I have found useful over the hears.
 
 ## Medical Imaging Journals
 
