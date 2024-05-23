@@ -14,6 +14,9 @@ Below is an overview of medical imaging software and publication information lea
 * [Python Packages](python-packages/README.md)
 
 
+## Medical Imaging Journals
+[medical imagin journals](journals/README.md)
+
 ## How to Write a Paper
 
 [Learn how to](write-paper/README.md) organize information in order to write a paper.
