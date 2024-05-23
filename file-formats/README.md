@@ -1,10 +1,9 @@
 
 # File Formats
 
-
 ## DICOM
 
-### Info
+### General Info
 * DICOM stores 1 image per file
 * 3D and 4D datasets are stored in a directory and can have 100s of files
 * Filenames are stored with a UID
@@ -18,7 +17,22 @@
   * Instance
     The slice information
 
-`$ pip install pydicom`
+https://pydicom.github.io/pydicom/stable/
+
+### Python Install
+
+```bash
+$ pip install pydicom
+```
+
+### Usage in Python
+
+```python
+import pydicom
+
+image = pydicom.load('filename.dcm')
+
+```
 
 ## NIFTI
 * Started out as “Analyze” file format
