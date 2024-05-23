@@ -7,16 +7,19 @@ Below are the primary GUI interfaces to view and interact with medical imaging d
 * Simple free program, written in Java
 * https://mipav.cit.nih.gov
 
-<img src="mipav.png" height=100 style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="mipav.png" height=100>
 
 ## ImageJ / FUJI
 * Simple free Java based solution
 * https://imagej.net/software/fiji/
 
+<img src="imagej.png" height=100>
+
 ## MITK
 * Free visulization software based on ITK
 * https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)
 
+<img src="mitk.png" height=100>
 
 ## 3D Slicer
 * Free software for medical image visualization and processing
@@ -24,3 +27,4 @@ Below are the primary GUI interfaces to view and interact with medical imaging d
 * Reasonably complex interface but will do most things needed for processing.
 * https://www.slicer.org
 
+<img src="slicer.png" height=100>
