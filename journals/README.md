@@ -2,7 +2,7 @@
 
 ## Medical Imaging Journals
 
-Radiology: AI
+Radiology: AI \
 https://pubs.rsna.org/journal/ai
 
 Computers in Biology and Medicine
