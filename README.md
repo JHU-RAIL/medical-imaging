@@ -26,4 +26,9 @@ There are numerous [medical imaging journals](journals/README.md) where one can 
 
 <p align="center">
 <img src="brain.png" height=250>
+
+<hr/>
+<br/>
+Craig Jones (<a href="mailto:craig@imagingai.org">craig@imagingai.org</a>)
+
 </p>

@@ -18,6 +18,7 @@ Below are the primary GUI interfaces to view and interact with medical imaging d
 ## MITK
 * Free visulization software based on ITK
 * https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)
+* Video on Segmentation with MITK https://www.youtube.com/watch?v=0DMqrjRx0KM
 
 <img src="mitk.png" height=100>
 
