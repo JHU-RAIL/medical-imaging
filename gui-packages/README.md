@@ -4,8 +4,8 @@ Below are the primary GUI interfaces to view and interact with medical imaging d
 
 ## MIPAV
 
-|* Simple free program, written in Java | ![alt text](mipav.png) |
-|* https://mipav.cit.nih.gov            |  |
+| * Simple free program, written in Java | ![alt text](mipav.png) |
+| * https://mipav.cit.nih.gov            |  |
 
 ## ImageJ / FUJI
 * Simple free Java based solution
