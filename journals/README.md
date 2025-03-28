@@ -11,6 +11,9 @@ https://www.sciencedirect.com/journal/computers-in-biology-and-medicine
 Artificial Intelligence in Medicine \
 https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine
 
+Journal of Medical Imaging \
+https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging
+
 Journal of Medical Imaging (SPIE) \
 https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging#_=_
 
